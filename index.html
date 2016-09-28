@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
 	<title>MAEL Ship Management</title>
 	<link rel="stylesheet" href="css/font-awesome.min.css">
 	<link rel="stylesheet" href="css/bootstrap.min.css">
@@ -52,7 +52,6 @@
 					        <li><a class="menu active" href="#home" >Home</a></li>
 					        <li><a class="menu" href="#about">about us</a></li>
 					        <li><a class="menu" href="#service">services </a></li>
-					        <!-- <li><a class="menu" href="#team">our team</a></li> -->
 					        <li><a class="menu" href="#contact"> contact us</a></li>
 					      </ul>
 					    </div><!-- /navbar-collapse -->
@@ -492,6 +491,11 @@
 	<script src="js/jqBootstrapValidation.js"></script>
     <script src="js/contact_me.js"></script>
 	<script src="js/custom.js"></script>
+	<script>
+      $('.nav a').click(function() {
+        $('.navbar-collapse').collapse('hide');  
+      });
+    </script>
 	
 </body>
 </html>
