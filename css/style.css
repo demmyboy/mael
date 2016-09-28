@@ -5,6 +5,8 @@ body{
 }
 li{
 	list-style: none;
+	font-size: 18px;
+	color: red;
 }
 a:hover, a:visited, a{
 	text-decoration: none;
@@ -509,7 +511,7 @@ li a.active{
 	height: 830px;
 	margin-top: 0px;
 	left: 0;
-	margin-top: -830px;
+	margin-top: -890px;
 	background: rgba(0, 0, 0, 0.18);
 }
 .contact-caption{
