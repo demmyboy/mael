@@ -28,6 +28,10 @@ h1, h2{
 	background: transparent;
 	margin:auto;
 }
+.header-logo{
+	padding: 5px !important;
+	margin-top:13px !important;
+}
 .top-header img.logo{
 	margin-bottom: 15px;
 	margin-top: 0;
@@ -176,7 +180,7 @@ li a.active{
 }
 .about p{
 	font-size: 22px;
-	color: #737373;
+	color: #151414;
 	margin-bottom: 10px;
 	font-family: 'Lato', sans-serif;
 	text-align: justify;
@@ -471,7 +475,7 @@ li a.active{
 .form{
 	border-top: 1px solid #53cde5;
 	padding-top: 15px;
-	text-align: right;h
+	text-align: right;
 }
 .contact-form input.submit-btn{
 	width: 180px;
@@ -540,7 +544,7 @@ footer{
 	position: relative;
 }
 
-
+.hide{display: none;}
 
 /*======================css for carousel=========================*/
 .carousel-fade .carousel-inner .item {
